@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +19,17 @@ body {
 }
 
 #sidebar {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
     background-color: lightblue;
+    padding: 25px;
+}
+
+#main-links div, #secondary-links div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #header {
