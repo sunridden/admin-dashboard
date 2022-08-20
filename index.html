@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div id="dashboard">
@@ -64,7 +67,7 @@
             <div id="logo-small">
                 <img class="svg" src="images/form-svgs/bell.svg" alt="bell-icon">
                 <img class="logo" src="images/cat.png" alt="cat-icon">
-                sunridden
+                <p id="username">sunridden</p>
             </div>
             <div id="logo-large">
                 <img class="big-logo" src="images/cat.png" alt="cat-icon">
@@ -86,7 +89,7 @@
                 <div id="cards">
                     <div class="card">
                         <h2>Super Cool Project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
                         <div class="project-action">
                             <img class="svg" src="images/form-svgs/star-plus-outline.svg" alt="star logo">
                             <img class="svg" src="images/form-svgs/trash-can-outline.svg" alt="trashcan logo">
@@ -95,7 +98,7 @@
                     </div>
                     <div class="card">
                         <h2>Less Cool Project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
                         <div class="project-action">
                             <img class="svg" src="images/form-svgs/star-plus-outline.svg" alt="star logo">
                             <img class="svg" src="images/form-svgs/trash-can-outline.svg" alt="trashcan logo">
@@ -104,7 +107,7 @@
                     </div>
                     <div class="card">
                         <h2>Youtube</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
                         <div class="project-action">
                             <img class="svg" src="images/form-svgs/star-plus-outline.svg" alt="star logo">
                             <img class="svg" src="images/form-svgs/trash-can-outline.svg" alt="trashcan logo">
@@ -113,7 +116,7 @@
                     </div>
                     <div class="card">
                         <h2>Impossible App</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
                         <div class="project-action">
                             <img class="svg" src="images/form-svgs/star-plus-outline.svg" alt="star logo">
                             <img class="svg" src="images/form-svgs/trash-can-outline.svg" alt="trashcan logo">
@@ -122,7 +125,7 @@
                     </div>
                     <div class="card">
                         <h2>Ad Blocker</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
                         <div class="project-action">
                             <img class="svg" src="images/form-svgs/star-plus-outline.svg" alt="star logo">
                             <img class="svg" src="images/form-svgs/trash-can-outline.svg" alt="trashcan logo">
@@ -131,7 +134,7 @@
                     </div>
                     <div class="card">
                         <h2>Netflix</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae. Cras varius faucibus est, vitae egestas est sollicitudin sed. Pellentesque habitant morbi tristique.</p>
                         <div class="project-action">
                             <img class="svg" src="images/form-svgs/star-plus-outline.svg" alt="star logo">
                             <img class="svg" src="images/form-svgs/trash-can-outline.svg" alt="trashcan logo">
@@ -145,15 +148,15 @@
                 <div id="announcements">
                     <div class="announcement-card">
                         <h3>Site Maintence</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae.</p>
                     </div>
                     <div class="announcement-card">
                         <h3>Community Share Day</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae.</p>
                     </div>
                     <div class="announcement-card">
                         <h3>Updated Privacy Policy</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae.</p>
+                        <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ipsum nisl, ut dictum leo dignissim vitae.</p>
                     </div>
                 </div>
             </div>
@@ -163,22 +166,22 @@
                     <div class="trending-person">
                         <img class="medium-logo" src="images/cat.png" alt="cat logo">
                         <div class="role">
-                            <p class="name">@sunridden</p>
-                            <p>Admin Dashboard</p>
+                            <p class="trending-person-name">@sunridden</p>
+                            <p class="subtext title">Admin Dashboard</p>
                         </div>
                     </div>
                     <div class="trending-person">
                         <img class="medium-logo" src="images/cat.png" alt="cat logo">
                         <div class="role">
-                            <p class="name">@sunridden</p>
-                            <p>Admin Dashboard</p>
+                            <p class="trending-person-name">@sunridden</p>
+                            <p class="subtext title">Admin Dashboard</p>
                         </div>
                     </div>
                     <div class="trending-person">
                         <img class="medium-logo" src="images/cat.png" alt="cat logo">
                         <div class="role">
-                            <p class="name">@sunridden</p>
-                            <p>Admin Dashboard</p>
+                            <p class="trending-person-name">@sunridden</p>
+                            <p class="subtext title">Admin Dashboard</p>
                         </div>
                     </div>
                 </div>
