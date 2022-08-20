@@ -12,6 +12,10 @@ body {
     height: 100%;
 }
 
+h3 {
+    margin: 0;
+}
+
 #dashboard {
     display: grid;
     grid-template-columns: minmax(200px, 0.2fr) 1fr;
@@ -116,10 +120,19 @@ body {
 #main-content {
     grid-column: 2 / -1;
     display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #E2E8F0;
     padding: 25px;
 }
 
+.header {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
 #cards {
+    grid-row: 1 / -1;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     gap: 20px;
@@ -127,6 +140,7 @@ body {
 
 .card {
     width: 450px;
+    background-color: white;
     border: 8px solid white;
     border-left-color: lightblue;
     border-radius: 10px;
@@ -138,4 +152,20 @@ body {
     justify-content: flex-end;
     gap: 20px;
     margin-right: 5px;
+}
+
+#announcements {
+    background-color: white;
+    border: 8px solid white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.announcement-card {
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 25px;
+}
+
+.announcement-card > p {
+    margin-top: 5px;
 }
